@@ -227,5 +227,26 @@ body {
 }
 
 .navbar.active {
-    
+    transform: translate(320px);
+    transition-timing-function: var(--cubic-in);
 }
+
+.navbar-link {
+    color: var(--eerie-black);
+    font-size: var(--fs-6);
+    padding: 10px 15px;
+}
+
+.navbar-action-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: var(--sonic-silver);
+    color: var(--white);
+    font-weight: var(--fw-700);
+    text-transform: uppercase;
+    text-align: center;
+}
+
